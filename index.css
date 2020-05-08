@@ -102,3 +102,52 @@ body, html {
 .cert-title:hover{
     color:whitesmoke;
 }
+.progress{
+    width: 100%;
+    border-radius: 1.5rem;
+    height: 0.5rem;
+}
+
+.progress-title{
+    margin-bottom:10px ;
+}
+.skills-item{
+    margin-top: 20px;
+}
+
+#html-progress-bar{
+    width: 80%;
+    background-color: rgba(0, 255, 0,0.7);
+}
+#python-progress-bar{
+    width: 67%;
+    background-color: rgba(77,238,234,1);
+}
+#java-progress-bar{
+    width: 75%;
+    background-color: rgb(0,30,255);
+}
+#css-progress-bar{
+    width: 50%;
+    background-color: rgb(255,231,0);
+}
+
+#js-progress-bar{
+    width: 63%;
+    background-color:  #FF6600;
+}
+
+[data-scroll]{
+    transition: all 2s;
+}
+
+[data-scroll="in"]{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+[data-scroll="out"]{
+    opacity: 0;
+    transform: translateX(-400px);
+}
