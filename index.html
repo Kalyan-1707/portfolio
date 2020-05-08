@@ -13,7 +13,7 @@
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
+      <script src="index.js"></script>
     </head>
 
     <body>
@@ -106,6 +106,7 @@
     </div>
     </section>
 
+    <!--
     <section class="fwh-slide-certifications" id="certifiactions">
         <div class="carousel-container">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -139,6 +140,53 @@
             </a>
           </div>
         </div>
+    </section>
+    -->
+
+    <section class="fwh-slide-certifications" id="certifiactions">
+      <div class="container">
+        <h1 class="cert-title">Cert</h1>
+        <div class="row mx-auto">
+          <div class="col-md-4 col-xs-10 img_container">
+            <img src="eh.png" alt="certificate 1" onclick="modal('eh.png')" width="100%" height="100%">
+          </div>
+          
+          <div class="col-md-4 col-xs-10 img_container ">
+            <img src="python.jpg" alt="certificate 1" onclick="modal('python.jpg')" width="100%" height="100%">
+          </div>
+
+          
+          <div class="col-md-4 col-xs-10 img_container ">
+            <img src="webdev.PNG" alt="certificate 1" onclick="modal('webdev.PNG')" width="100%" height="100%">
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Button trigger modal -->
+ <button type="button" class="btn btn-primary" id="trigger_modal" data-toggle="modal" data-target="#exampleModalCenter">
+  
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="eh.png" id="modal_img" width="100%" height="100%">
+      </div>
+      <div class="modal-footer">
+       <p>caption</p>
+      </div>
+    </div>
+  </div>
+</div>
+
     </section>
 
     </body>

@@ -12,7 +12,7 @@ body, html {
   }
 
   .about-title h1{
-      color: whitesmoke;
+      color: rgba(245,245,245,0.6);
       font-size: 8rem;
   }
   .fwh-slide-about{
@@ -52,11 +52,12 @@ body, html {
    
   }
   .skills-title h1{
-    
+        color: rgba(245,245,245,0.6);
       font-size: 8rem;
   }
  .fwh-slide-certifications{
      height: 100vh;
+     background-color: #252627;
  }
  .carousel-item{
      height: 100vh;
@@ -64,3 +65,40 @@ body, html {
      background: no-repeat center center;
      background-size: cover;
  }
+
+ .modal-content{
+     background-color:rgba(0,0,0,0.4);
+     
+ }
+ .modal-header{
+     border: none;
+ }
+ .modal-footer{
+    border: none;
+}
+
+#trigger_modal{
+    display: none;
+}
+
+.fwh-slide-certifications .container{
+    
+    background-color: 	#252627;
+}
+
+.fwh-slide-certifications .container img:hover{
+    cursor: pointer;
+}
+
+.img_container{
+    margin-top: 10px;
+}
+
+.cert-title{
+    color: rgba(245,245,245,0.6);
+    font-size: 6rem;
+}
+
+.cert-title:hover{
+    color:whitesmoke;
+}
