@@ -181,19 +181,13 @@ body, html {
 
 .fa-github{
     font-size: 3rem;
+    color: whitesmoke;
 }
 .fa-cloud-upload-alt
 {
     font-size: 3rem;
+    color: whitesmoke;
 }
-.fa-cloud-upload-alt:hover{
-    color:whitesmoke;
-}
-.fa-github:hover{
-    color:whitesmoke;
-}
-
-
 
 .footer{
     background-color: black;
