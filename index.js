@@ -73,7 +73,7 @@ function submitContactForm(e){
         {
          console.log("Sending");
          var res=this.responseText;
-            if(res=='202')
+            if(res==202)
             {
                 document.getElementById('error_msg').innerHTML="Your message was sent successfully.";
             }
