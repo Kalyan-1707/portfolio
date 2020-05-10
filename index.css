@@ -110,7 +110,6 @@ body, html {
     color: rgba(245,245,245,0.6);
     font-size: 6rem;
 }
-
 .cert-title:hover{
     color:whitesmoke;
 }
@@ -181,16 +180,35 @@ body, html {
 
 .fa-github{
     font-size: 3rem;
-    color: whitesmoke;
 }
 .fa-cloud-upload-alt
 {
     font-size: 3rem;
-    color: whitesmoke;
+}
+.fa-cloud-upload-alt:hover{
+    color:whitesmoke;
+}
+.fa-github:hover{
+    color:whitesmoke;
 }
 
+
+
+
+.fwh-slide-contactForm{
+    min-height: 100vh;
+    background-color: #252627;
+}
+
+
 .footer{
-    background-color: black;
+    margin-top: 100px;
+    background-color: #252627;
+    
+
+}
+#error_msg{
+    color: #E1306C;
 }
 .footer .fab{
     font-size: 4rem;
@@ -201,7 +219,21 @@ body, html {
     text-decoration: none;
     color: whitesmoke;
 }
-
+.fa-facebook:hover{
+    transform: scale(0.8,0.8);
+}
+.fa-linkedin:hover{
+    transform: scale(0.8,0.8);
+}
+.fa-twitter:hover{
+    transform: scale(0.8,0.8);
+}
+.fa-instagram:hover{
+    transform: scale(0.8,0.8);
+}
+.fa-telegram:hover{
+    transform: scale(0.8,0.8);
+}
 .fa-facebook{
     color: white;
 }
@@ -214,7 +246,9 @@ body, html {
 .fa-telegram{
     color: #4267B2;
 }
-
+.fa-linkedin{
+    color: #1DA1F2;
+}
 
 .about-scroll{
     transition: all 2s;
@@ -282,3 +316,4 @@ body, html {
     opacity: 0;
     transform: translateZ(400px);
 }
+

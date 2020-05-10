@@ -202,7 +202,7 @@
     <section class="fwh-slide-projects" id="projects">
       <div class="container justify-content-center">
         <div class="row ">
-          <div class="projects-title about-scroll" ><h1>Projects</h1></div>
+          <div class="projects-title about-scroll" ><h1>Projects</h1></div></div>
         <div class="row mx-auto">
           
         <div class="col-md-4 col-xs-10">
@@ -251,18 +251,18 @@
 
     <section class="fwh-slide-certifications" id="certifiactions">
       <div class="container">
-        <h1 class="cert-title">Cert</h1>
+        <h1 class="cert-title cert-scroll">Cert</h1>
         <div class="row mx-auto">
-          <div class="col-md-4 col-xs-10 img_container cert-slide-right">
+          <div class="col-md-4 col-xs-10 img_container projects-slide-up">
             <img src="eh.png" alt="certificate 1" onclick="modal('eh.png')" width="100%" height="100%">
           </div>
           
-          <div class="col-md-4 col-xs-10 img_container cert-slide-right">
+          <div class="col-md-4 col-xs-10 img_container projects-slide-up">
             <img src="python.jpg" alt="certificate 1" onclick="modal('python.jpg')" width="100%" height="100%">
           </div>
 
           
-          <div class="col-md-4 col-xs-10 img_container cert-slide-right">
+          <div class="col-md-4 col-xs-10 img_container projects-slide-up">
             <img src="webdev.PNG" alt="certificate 1" onclick="modal('webdev.PNG')" width="100%" height="100%">
           </div>
 
@@ -295,29 +295,41 @@
 
     </section>
 
-    <section class="fwh-slide-contactForm">
-      <div class="d-flex align-items-center justify-contents-center">
+    <section class="fwh-slide-contactForm" id="contact">
+      <div class="container  ">
+        <div class="row ">
+          <div class="projects-title about-scroll" ><h1>Contact</h1></div></div>
 
+          <div class="row">
+
+            <div class="col-xs-8 offset-xs-2 col-md-4 offset-md-4">
         <form action="" method="POST">
 
-          <input type="text" class="form-control" name="name" id="contact_form_name">
-
-          <input type="email" class="form-control" name="email" id="contact_form_email">
-
-          <textarea class="form-control" type="text" name="message" id="contact_form_msg"></textarea>
-
+          <div class="form-group">
+          <input type="text" class="form-control" name="name" id="contact_form_name" placeholder="your name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" name="email" id="contact_form_email" placeholder="your mail" required>
+        </div>
+          <div class="form-group">
+          <textarea class="form-control" type="text" name="message" id="contact_form_msg" placeholder="Leave your message" required></textarea>
+        </div>
+        <p id="error_msg"></p>
           <button class="btn btn-info" id="contact_form_submit" type="button" onclick="submitContactForm()" >Submit</button>
         </form>
-
+      </div>
+      </div>
       </div>
     <div class="footer">
-    <div class="container " id="contact">
+    <div class="container " >
       <div class="row d-flex align-items-center justify-content-center">
  
-     <a href="https://www.facebook.com/KONUDULAPAVANKALYAN" class="about-scroll" target="_blank"><i class="fab fa-facebook" ></i></a>
-     <a href="https://twitter.com/Kalyan_Konudula" class="about-scroll" target="_blank"><i class="fab fa-twitter" ></i></a>
-      <a href="https://www.instagram.com/kalyan_konudula/" class="about-scroll" target="_blank"><i class="fab fa-instagram" ></i></a>
-      <a href="https://t.me/Kalyan1707" class="about-scroll" target="_blank"><i class="fab fa-telegram" ></i></a>
+        
+     <a href="https://www.facebook.com/KONUDULAPAVANKALYAN" class="skills-scroll" target="_blank"><i class="fab fa-facebook" ></i></a>
+     <a href="https://twitter.com/Kalyan_Konudula" class="skills-scroll" target="_blank"><i class="fab fa-twitter" ></i></a>
+     <a href="https://t.me/Kalyan1707" class="skills-scroll" target="_blank"><i class="fab fa-telegram" ></i></a>
+      <a href="https://www.instagram.com/kalyan_konudula/" class="skills-scroll" target="_blank"><i class="fab fa-instagram" ></i></a>
+      <a href="https://t.me/Kalyan1707" class="skills-scroll" target="_blank"><i class="fab fa-linkedin"></i></a>
     </div>
     </div>
   </div>
