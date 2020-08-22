@@ -1,7 +1,3 @@
-var el = document.getElementById('contact_form_submit');
-if(el){
-  el.addEventListener('click', submitContactForm);
-}
 
 
 
@@ -12,6 +8,7 @@ function modal(img)
  btn.click();
 }
 
+/*
 function formValidation()
 {
     var uname=document.getElementById('contact_form_name').value;
@@ -44,12 +41,10 @@ function formValidation()
 
     return false;
 
-}
+}*/
 function submitContactForm(e){
 
-    if(formValidation())
-    
-    {
+    e.preventDefault();
   
     var xhr=new XMLHttpRequest();
   
@@ -60,9 +55,6 @@ function submitContactForm(e){
     var msg=document.getElementById('contact_form_msg').value;
 
     
-
-
-  
     var pars="uname="+uname+ "&" + "email="+email + "&" + "msg="+msg;
   
     xhr.open('POST','https://bbbs0717.000webhostapp.com/sendmail.php',true);
@@ -83,4 +75,3 @@ function submitContactForm(e){
       xhr.send(pars);
     
     }
-  }
