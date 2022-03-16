@@ -127,27 +127,35 @@ body, html {
 }
 
 #html-progress-bar{
-    width: 80%;
+    width: 85%;
     background-color: rgba(0, 255, 0,0.7);
 }
-#python-progress-bar{
-    width: 67%;
+#react-js-progress-bar{
+    width: 86%;
     background-color: rgba(77,238,234,1);
 }
 #java-progress-bar{
-    width: 75%;
+    width: 87%;
     background-color: rgb(0,30,255);
 }
 #css-progress-bar{
-    width: 50%;
+    width: 80%;
     background-color: rgb(255,231,0);
 }
 
 #js-progress-bar{
-    width: 63%;
+    width: 90%;
     background-color:  #FF6600;
 }
 
+.profile-img img{
+    width: 250px;
+    height: 250px;
+}
+
+img{
+    object-fit: cover;
+}
 
 
 .projects-title h1{
@@ -316,4 +324,14 @@ body, html {
     opacity: 0;
     transform: translateZ(400px);
 }
+
+.about-intro{
+    font-size: 2rem;
+}
+
+.about-desc{
+    font-size: 1.25rem;
+}
+
+
 

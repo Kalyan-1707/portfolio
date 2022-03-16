@@ -5,8 +5,8 @@
         <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
          <link rel="stylesheet" href="index.css">
 
@@ -61,7 +61,7 @@
                       I'm
                       <span class="name">Pavan Kalyan</span>,
                       </br>
-                      Full Stack <span style="color: yellowgreen;">Developer</span>.
+                      Front-end <span style="color: yellowgreen;">Developer</span>.
                       </br>
                       </br>
                       <a href="#contact">Contact Me</a>
@@ -72,7 +72,7 @@
                 </div>
         
                 <div class="col-xs-12  col-md-3 offset-md-6  justify-content-center d-none d-md-block profile-img">
-                 
+                  <!-- <img src="./Passport-removebg-preview.png" alt="pic"/> -->
                 </div>
               </div>
             </div>
@@ -88,12 +88,15 @@
              <h1 >About</h1>
             </div>
         </div>
-      
             <div class="about-info jumbotron">
-                I am Pavan Kalyan.</br>
-                Currently,I am pursuing my B.Tech in field of Information and Communication Technology.</br>
-                Apart from my academics i develop websites,do participate in programming contests and sometimes i do pentesting.</br>
-                I was lucky enough to win the web dev contenst of our college tech fest.
+                <p class="about-intro">Hi, I am Pavan Kalyan Konudula.</p>
+                <article class="about-desc">
+                  Innovative Web Developer dedicated to building and optimizing user-focused websites for customers 
+                  with various business objectives. 
+                  Judicious and creative when crafting effective websites, apps and 
+                  platforms to propel competitive advantage and revenue growth. Technically proficient and analytical 
+                  problem solver with calm and focused demeanor.
+                </article>
             </div>
         </div>
     </section>    
@@ -139,11 +142,11 @@
 
               <div class="skills-item">
                 <div class="progress-title">
-                  Python
+                  React js
               </div>      
                   <div class="progress">
                     
-                    <div  class="progress-bar" id="python-progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div  class="progress-bar" id="react-js-progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
               </div>
 
@@ -166,11 +169,45 @@
         <div class="row ">
           <div class="projects-title about-scroll" ><h1>Projects</h1></div></div>
         <div class="row mx-auto">
+
+
+          <div class="col-md-4 col-xs-10">
+            <div class="card projects-slide-up">
+          
+              <img class="card-img-top" src="./images/Millionaire.PNG" alt="">
+              <div class="card-body align-items-center d-flex justify-content-center">
+          
+                <p class="card-text">
+                  <a class="btn" href="https://github.com/Kalyan-1707/millionaire" target="_blank"><i
+                      class="fab fa-github"></i></a>
+                <p class="mx-auto">Trivia App</p>
+                <a class="btn" href="https://millionaire-clone.netlify.app/" target="_blank"><i
+                    class="fas fa-cloud-upload-alt"></a></i></p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4 col-xs-10">
+            <div class="card projects-slide-up">
+          
+              <img class="card-img-top" src="./images/Dev-Jobs.png" alt="">
+              <div class="card-body align-items-center d-flex justify-content-center">
+          
+                <p class="card-text">
+                  <a class="btn" href="https://github.com/Kalyan-1707/github-jobs-app" target="_blank"><i
+                      class="fab fa-github"></i></a>
+                <p class="mx-auto">Dev Jobs</p>
+                <a class="btn" href="https://github-jobs-api-clone.netlify.app/" target="_blank"><i
+                    class="fas fa-cloud-upload-alt"></a></i></p>
+              </div>
+            </div>
+          </div>
+  
           
         <div class="col-md-4 col-xs-10">
           <div class="card projects-slide-up">
 
-            <img class="card-img-top" src="coffee-pro.PNG" alt="">
+            <img class="card-img-top" src="./images/coffee-pro.PNG" alt="">
             <div class="card-body align-items-center d-flex justify-content-center">
               
               <p class="card-text">
@@ -181,10 +218,15 @@
           </div>
         </div>
 
+
+        
+
+
+
         <div class="col-md-4 col-xs-10">
           <div class="card projects-slide-up">
         
-            <img class="card-img-top" src="weather-app.PNG" alt="">
+            <img class="card-img-top" src="./images/weather-app.PNG" alt="">
             <div class="card-body align-items-center d-flex justify-content-center">
         
               <p class="card-text">
@@ -199,24 +241,7 @@
         <div class="col-md-4 col-xs-10">
           <div class="card projects-slide-up">
         
-            <img class="card-img-top" src="quiz-app.PNG" alt="">
-            <div class="card-body align-items-center d-flex justify-content-center">
-        
-              <p class="card-text">
-                <a class="btn" href="https://github.com/Kalyan-1707/ictas-quiz-app" target="_blank"><i
-                    class="fab fa-github"></i></a>
-              <p class="mx-auto">Quiz App</p>
-              <a class="btn" href="https://bbbs0717.000webhostapp.com/" target="_blank"><i
-                  class="fas fa-cloud-upload-alt"></a></i></p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-md-4 col-xs-10">
-          <div class="card projects-slide-up">
-        
-            <img class="card-img-top" src="msk-documents.PNG" alt="">
+            <img class="card-img-top" src="./images/msk-documents.PNG" alt="">
             <div class="card-body align-items-center d-flex justify-content-center">
         
               <p class="card-text">
@@ -232,24 +257,12 @@
         <div class="col-md-4 col-xs-10">
           <div class="card projects-slide-up">
 
-            <img class="card-img-top" src="steg.jpg" alt="">
+            <img class="card-img-top" src="./images/steg.jpg" alt="">
             <div class="card-body align-items-center d-flex justify-content-center">
               <p class="card-text">
                 <a class="btn" href="https://github.com/Kalyan-1707/steganography" target="_blank"><i class="fab fa-github"></i></a>
                 <p class="mx-auto">Steganography</p>
                 <a class="btn" href="https://github.com/Kalyan-1707/steganography" target="_blank"><i class="fas fa-cloud-upload-alt"></a></i></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-xs-10">
-          <div class="card projects-slide-up">
-
-            <img class="card-img-top" src="nobroker.jpg" alt="">
-            <div class="card-body align-items-center d-flex justify-content-center">
-              <p class="card-text">
-                <a class="btn" href="https://github.com/Kalyan-1707/nobroker.com" target="_blank"><i class="fab fa-github" ></i></a>
-                <p class="mx-auto">no broker</p>
-                <a class="btn" href="https://kalyan-1707.github.io/nobroker.com/web/" target="_blank"><i class="fas fa-cloud-upload-alt"></a></i></p>
             </div>
           </div>
         </div>
@@ -267,17 +280,17 @@
   
           
           <div class="col-md-4 col-xs-10 img_container projects-slide-up">
-            <img src="react-js.png"
-             alt="certificate 2" onclick="modal('react-js.png')" width="100%" height="100%">
+            <img src="./images/react-js.png"
+             alt="certificate 2" onclick="modal('./images/react-js.png')" width="100%" height="100%">
           </div>
 
           <div class="col-md-4 col-xs-10 img_container projects-slide-up">
-            <img src="python.jpg" alt="certificate 3" onclick="modal('python.jpg')" width="100%" height="100%">
+            <img src="./images/python.jpg" alt="certificate 3" onclick="modal('./images/python.jpg')" width="100%" height="100%">
           </div>
 
           
           <div class="col-md-4 col-xs-10 img_container projects-slide-up">
-            <img src="webdev.PNG" alt="certificate 4" onclick="modal('webdev.PNG')" width="100%" height="100%">
+            <img src="./images/webdev.PNG" alt="certificate 4" onclick="modal('./images/webdev.PNG')" width="100%" height="100%">
           </div>
 
         </div>
